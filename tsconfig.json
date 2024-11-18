@@ -1,0 +1,15 @@
+{
+  "importHelpers": true,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "importsNotUsedAsValues": "remove",
+    "preserveValueImports": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ES2023", "DOM"],
+    "paths": {}
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*.ts"]
+}
