@@ -6,7 +6,7 @@ export const kolobok = (name: string = ''):string => {
       return 'Я от дедушки ушел';
     case 'заяц':
       return 'Я от зайца ушел';
-    case 'лица':
+    case 'лиcа':
       return 'Меня съели';
     default:
       return 'Неизвестный персонаж';
