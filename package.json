@@ -1,0 +1,16 @@
+{
+  "name": "otus_qa_engineer",
+  "version": "1.0.0",
+  "description": "Создано в рамках курса OTUS JavaScript QA Engineer",
+  "scripts": {
+    "start": "rimraf dist && npm run type-check && node dist/tale.js",
+    "type-check": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.3"
+  }
+}
